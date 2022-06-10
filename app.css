@@ -1,0 +1,82 @@
+body {
+    font-family: 'Bebas Neue', cursive;
+    color: whitesmoke;
+    background-image: url("https://images.unsplash.com/photo-1558051815-0f18e64e6280?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80");
+}
+
+
+h1 {
+    font-size: 4rem;
+    color: whitesmoke;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-image: url("https://images.unsplash.com/photo-1558051815-0f18e64e6280?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80");
+}
+
+section {
+    text-align: center;
+}
+
+.mystyle {
+    width:50%;
+    height:auto;
+}
+
+div {
+    position: relative;
+}
+
+.headertext {
+    position: absolute;
+    top: -12%;
+    width: 50%;
+    text-align: center;
+    font-size: 70px;
+}
+
+.footertext {
+    position: absolute;
+    bottom: -12%;
+    width: 50%;
+    text-align: center;
+    font-size: 70px;
+}
+
+button {
+    margin-bottom: 15px;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(94, 81, 74);
+    background-color: ; whitesmoke;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+div button {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    width:50%;
+    height:100%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    opacity: 0.0;
+    font-size: 400px;
+    
+}
+
+div button:hover {
+    background-color: black;
+    opacity: 0.5;
+    border: none;
+    border-radius: none;
+}
+
+input{
+    width: 500px
+    
+}
